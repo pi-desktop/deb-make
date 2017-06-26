@@ -14,8 +14,8 @@ shutdown shell
 
 - rtc.py
 >
-1.Edit the file /boot/config.txt,changing 'dtoverlay=i2c-rtc,pcf8563'.
-2.Edit the file /lib/udev/hwclock-set,commenting out some code.
+1.Edit the file /boot/config.txt,changing 'dtoverlay=i2c-rtc,pcf8563'.   
+2.Edit the file /lib/udev/hwclock-set,commenting out some code.  
 3.Disable fake-hwclock.service
 
 - pppBoot.py
@@ -25,9 +25,9 @@ Edit the file /boot/cmdline.txt,changing 'root=/dev/sda2'.
 
 - diskClone.py
 >
-1.Check if there is a mSATA disk.
-2.call piclone 
-3.call pppBoot.py 
+1.Check if there is a mSATA disk.  
+2.call piclone   
+3.call pppBoot.py   
 
 shell file
 ---------------
