@@ -1,0 +1,7 @@
+Package: pidesktop-base
+Version: 0.1.0
+Section: free
+Priority: optional
+Architecture: all
+Maintainer: xiele@embest-tech.com
+Description: Pi Desktop(A lowcost desktop PC based on Raspberry Pi)

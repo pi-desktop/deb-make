@@ -1,0 +1,17 @@
+
+#!/bin/bash
+
+sudo chmod +x /usr/share/PiDesktop/script/* 
+sudo chmod +x /usr/share/PiDesktop/python/* 
+
+sudo ln -s /usr/share/PiDesktop/script/ppp-hdclone /usr/bin/ppp-hdclone 
+sudo ln -s /usr/share/PiDesktop/python/pppBoot.py /usr/bin/ppp-boot
+
+#sudo /usr/share/PiDesktop/python/rtc.py 
+#sudo /usr/share/PiDesktop/script/ppp-hdclone 
+
+#sudo systemctl enable embest.service &
+sudo systemctl enable embest-shutdown.service 
+sudo systemctl enable embest.service 
+
+sudo /usr/share/PiDesktop/python/rtc.py 

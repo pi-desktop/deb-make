@@ -1,0 +1,11 @@
+[Unit]
+Description=Reboot test
+DefaultDependencies=no
+Before=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/share/PiDesktop/script/sync-hwclock
+
+[Install]
+WantedBy=reboot.target poweroff.target

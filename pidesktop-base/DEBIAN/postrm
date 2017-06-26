@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo rm -f /usr/bin/ppp-hdclone
+sudo rm -f /usr/bin/ppp-boot
+sudo rm -f /etc/systemd/system/multi-user.target.wants/embest.service
+sudo rm -f /etc/systemd/system/reboot.target.wants/embest-shutdown.service
+sudo rm -f /etc/systemd/system/poweroff.target.wants/embest-shutdown.service
+sudo rm -f /lib/systemd/system/embest.service
+sudo rm -f /lib/systemd/system/embest-shutdown.service

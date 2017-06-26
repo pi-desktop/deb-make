@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#echo "Do you want to clone the file system from sd to mSATA disk?"
+#read -p "You can also do it by calling 'sudo ppp-hdclone' (Y/n) " choice
+#
+#if [[ $choice == 'n' || $choice == 'N' ]]
+#then
+#    echo ""
+#else
+    exec '/usr/share/PiDesktop/python/diskClone.py'
+#fi
+

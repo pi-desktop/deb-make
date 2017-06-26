@@ -1,0 +1,10 @@
+[Unit]
+Description=Embest shell
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python /usr/share/PiDesktop/python/restart.py
+
+[Install]
+WantedBy=multi-user.target
