@@ -37,7 +37,7 @@ def chekSD():
 def diskClone():
     message = "Calling the 'SD Card copier' to clone the filesystem from SD Card to SSD...";
     print message;
-    command = 'sudo piclone';
+    command = 'piclone';
     runCommand(command);
     m = Manager();
     m.runask();
