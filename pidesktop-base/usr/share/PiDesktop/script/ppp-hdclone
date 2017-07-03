@@ -7,6 +7,8 @@
 #then
 #    echo ""
 #else
-    exec '/usr/share/PiDesktop/python/diskClone.py'
+#    exec '/usr/share/PiDesktop/python/diskClone.py'
 #fi
 
+/usr/share/PiDesktop/python/diskClone.py
+sudo /usr/share/PiDesktop/python/pppBoot.py

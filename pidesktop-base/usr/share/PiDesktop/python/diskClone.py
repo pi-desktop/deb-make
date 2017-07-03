@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import os;
-from pppBoot import Manager;
+#from pppBoot import Manager;
 
 def runCommand(command):
     print command;
@@ -28,8 +28,8 @@ def chekSD():
                 num += 1;
             else:
                 sd = line.strip('\r\n');
-        if num == 0:
-            newPartition(sd);
+#        if num == 0:
+#            newPartition(sd);
         diskClone();
     else:
         print 'Please insert mSATA disk.';
@@ -39,8 +39,8 @@ def diskClone():
     print message;
     command = 'piclone';
     runCommand(command);
-    m = Manager();
-    m.runask();
+#    m = Manager();
+#    m.runask();
 
 if __name__ == "__main__":
     chekSD();

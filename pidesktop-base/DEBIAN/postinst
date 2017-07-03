@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 sudo chmod +x /usr/share/PiDesktop/script/* 
